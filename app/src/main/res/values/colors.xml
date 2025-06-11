@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+    <color name="background_color">#425D4C</color>
+    <color name="colorPrimary">#5C8D4C</color>
+    <color name="colorPrimaryDark">#4A7739</color>
+    <color name="colorAccent">#D4A746</color>
+
+
+
+    <color name="primary_green">#6B9080</color>
+    <color name="primary_green_dark">#5E7E6A</color>
+    <color name="accent_color">#A4C3B2</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F9F9F4</color>
+    <color name="background_white">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2D3748</color>
+    <color name="text_secondary">#718096</color>
+    <color name="text_light">#A0AEC0</color>
+
+    <!-- Status Colors -->
+    <color name="danger_color">#E53E3E</color>
+    <color name="success_color">#38A169</color>
+    <color name="warning_color">#D69E2E</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#6B9080</color>
+    <color name="gradient_end">#A4C3B2</color>
+    <color name="gradient_accent_start">#A4C3B2</color>
+    <color name="gradient_accent_end">#6B9080</color>
+    <color name="gradient_danger_start">#E53E3E</color>
+    <color name="gradient_danger_end">#C53030</color>
+
+
+
+    <color name="default_green">#5C8D4C</color>
+    <color name="selected_green">#4A7739</color>
+    <color name="background_green">#e5efd5</color>
+    <color name="card_green">#f0f7e2</color>
+    <color name="selected_card">#e6f0d9</color>
+
+    <color name="text_dark">#4B4B4B</color>
+    <color name="text_gray">#6A6A6A</color>
+    <color name="coin_gold">#D4A746</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorBlue">#2196F3</color>
+
+
+</resources>

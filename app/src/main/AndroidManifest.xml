@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.smallacademy.userroles">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Admin Dashboard Activity -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="true"
+            android:label="@string/title_activity_admin_dashboard"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- Onboarding Activity -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false" />
+
+        <!-- Existing activities -->
+        <activity android:name=".Admin" android:exported="false" />
+        <activity android:name=".UserDetailActivity" android:exported="false" />
+        <activity android:name=".ManajemenInventarisActivity" android:exported="false" />
+        <activity android:name=".ProfileActivity" android:exported="false" />
+        <activity android:name=".RiwayatTransaksiActivity" android:exported="false" />
+        <activity android:name=".KeranjangActivity" android:exported="false" />
+        <activity android:name=".AddClothingItemActivity" android:exported="false" />
+        <activity android:name=".AdminMainActivity" android:exported="false" />
+        <activity android:name=".KatalogActivity" android:exported="false" />
+        <activity android:name=".HomepageActivity" android:exported="false" />
+        <activity android:name=".Register" android:exported="false" />
+        <activity android:name=".ManajemenPesananActivity" android:exported="false" />
+        <activity android:name=".ProgramLoyalitasActivity" android:exported="false" />
+        <activity android:name=".LaporanAnalitikActivity" android:exported="false" />
+        <activity android:name=".ManajemenPenggunaActivity" android:exported="false" />
+        <activity android:name=".SettingsActivity" android:exported="false" />
+        <activity android:name=".ClothingItemDetailActivity" android:exported="false" />
+        <activity android:name=".EditClothingItemActivity" android:exported="false" />
+        <activity android:name=".DetailPakaianActivity" android:exported="false" />
+        <activity android:name=".EditProfileActivity" android:exported="false" />
+        <activity android:name=".Login" android:exported="false" />
+        <activity android:name=".PakaianActivity" android:exported="false" />
+        <activity android:name=".RentalProcessActivity" android:exported="false" />
+
+
+        <!-- MainActivity as launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

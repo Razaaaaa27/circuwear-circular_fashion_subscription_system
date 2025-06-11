@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092126693752",
+    "project_id": "circuwear",
+    "storage_bucket": "circuwear.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092126693752:android:c639d6616d56bd305d908d",
+        "android_client_info": {
+          "package_name": "com.smallacademy.userroles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy76iriH9LtF0DP9i-Y_VqXJHeOwkzdw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

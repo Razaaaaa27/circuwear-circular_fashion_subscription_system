@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark green background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2F4F4F" /> <!-- Dark green color -->
+        </shape>
+    </item>
+
+    <!-- Lighter green curved shape at bottom -->
+    <item android:bottom="-100dp">
+        <shape android:shape="oval">
+            <solid android:color="#8DEFCB" /> <!-- Light mint green -->
+            <size
+                android:width="500dp"
+                android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- Another green curved shape -->
+    <item android:bottom="-150dp">
+        <shape android:shape="oval">
+            <solid android:color="#A8F0D5" /> <!-- Slightly different mint green -->
+            <size
+                android:width="450dp"
+                android:height="200dp" />
+        </shape>
+    </item>
+</layer-list>

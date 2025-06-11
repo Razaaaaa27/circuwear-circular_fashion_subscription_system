@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">UserRoles</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="title_activity_admin_dashboard">Admin Dashboard</string>
+    <string name="active_rentals">Total Sewa Aktif</string>
+    <string name="todays_revenue">Pendapatan Hari Ini</string>
+    <string name="pending_returns">Pengembalian Tertunda</string>
+    <string name="available_clothes">Pakaian Tersedia</string>
+    <string name="daily_revenue">Pendapatan Harian</string>
+    <string name="last_7_days">7 Hari Terakhir</string>
+    <string name="popular_categories">Kategori Populer</string>
+    <string name="important_notifications">Notifikasi Penting</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="schedule">Jadwal Pengiriman &amp; Pengembalian</string>
+    <string name="view_calendar">Lihat Kalender</string>
+
+
+
+    <string name="dashboard">Dasbor Utama</string>
+    <string name="inventory">Inventaris</string>
+    <string name="orders">Pesanan</string>
+    <string name="loyalty">Loyalitas</string>
+    <string name="reports">Laporan</string>
+    <string name="users">Pengguna</string>
+    <string name="settings">Pengaturan</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Logout</string>
+    <string name="account">Akun</string>
+
+
+
+
+
+    <string name="nav_header_title">Admin Panel</string>
+    <string name="nav_header_subtitle">admin@clothrental.com</string>
+
+
+    <string-array name="item_status_array">
+        <item>Tersedia</item>
+        <item>Disewa</item>
+        <item>Perawatan</item>
+        <item>Tidak Tersedia</item>
+    </string-array>
+
+    <string-array name="order_status_array">
+        <item>Pending</item>
+        <item>Confirmed</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/blazer_item_background"
+    android:clipChildren="true"
+    android:clipToPadding="true">
+
+    <ImageView
+        android:id="@+id/blazerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#D9D9D9"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true"
+        android:contentDescription="Blazer Image" />
+
+    <TextView
+        android:id="@+id/blazerNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blazer Name"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:paddingTop="4dp"
+        android:gravity="center" />
+</LinearLayout>
